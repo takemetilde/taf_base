@@ -1,0 +1,13 @@
+{
+	"array" : [
+		{
+			"wrapper1" : [
+				{
+					"wrapper2" : {
+						"key" : true
+					}
+				}
+			]
+		}
+	]
+}

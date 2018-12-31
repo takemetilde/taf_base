@@ -1,0 +1,123 @@
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                          http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <!-- NOTE: You must copy this file into your local .m2 repository before resolving dependencies -->
+    <!-- Example: C:\Users\adxxxx\.m2\settings.xml -->
+
+    <!--<localRepository/>-->
+    <!--<interactiveMode/>-->
+    <!--<usePluginRegistry/>-->
+    <!--<offline/>-->
+    <!--<pluginGroups/>-->
+    <!--<servers/>-->
+    <!--<mirrors>-->
+        <!--<mirror>-->
+            <!--<id>mirror</id>-->
+            <!--<name>Anthem Artifactory</name>-->
+            <!--<url>https://va10pwprpo001/artifactory/public</url>-->
+            <!--<mirrorOf>*</mirrorOf>-->
+        <!--</mirror>-->
+    <!--</mirrors>-->
+    <!--<proxies/>-->
+    <!--<activeProfiles>-->
+        <!--<activeProfile>local-development</activeProfile>-->
+        <!--<activeProfile>repos</activeProfile>-->
+    <!--</activeProfiles>-->
+    <!--<profiles>-->
+        <!--<profile>-->
+            <!--<id>local-development</id>-->
+            <!--<properties>-->
+                <!--&lt;!&ndash; AFTER COPYING INTO YOUR .M2 REPOSITORY, YOU NEED TO SPECIFY YOUR LOCAL PATH TO THE FOLLOWING WEB DRIVERS &ndash;&gt;-->
+                <!--<webdriver.chrome.driver>C:\drivers\chromedriver.exe</webdriver.chrome.driver>-->
+                <!--<webdriver.ie.driver>C:\drivers\iedriver.exe</webdriver.ie.driver>-->
+                <!--<webdriver.gecko.driver>C:\drivers\geckodriver.exe</webdriver.gecko.driver>-->
+                <!--<execution.environment>DEV</execution.environment>-->
+                <!--<anthem.environment>DEV</anthem.environment>-->
+                <!--<forkCount>1</forkCount>  &lt;!&ndash; How many possible || tests &ndash;&gt;-->
+            <!--</properties>-->
+        <!--</profile>-->
+        <!--<profile>-->
+            <!--<id>local-grid</id>-->
+            <!--<properties>-->
+                <!--<webdriver.chrome.driver>C:\drivers\chromedriver.exe</webdriver.chrome.driver>-->
+                <!--<webdriver.ie.driver>C:\drivers\iedriver.exe</webdriver.ie.driver>-->
+                <!--<webdriver.gecko.driver>C:\drivers\geckodriver.exe</webdriver.gecko.driver>-->
+                <!--<execution.environment>DEV</execution.environment>-->
+                <!--<anthem.environment>SIT</anthem.environment>-->
+                <!--<selenium.gridurl>http://localhost:4444/wd/hub</selenium.gridurl>-->
+                <!--<selenium.remote>true</selenium.remote>-->
+            <!--</properties>-->
+        <!--</profile>-->
+        <!--<profile>-->
+            <!--<id>remote-grid</id>-->
+            <!--<properties>-->
+                <!--<webdriver.chrome.driver>C:\drivers\chromedriver.exe</webdriver.chrome.driver>-->
+                <!--<webdriver.ie.driver>C:\drivers\iedriver.exe</webdriver.ie.driver>-->
+                <!--<webdriver.gecko.driver>C:\drivers\geckodriver.exe</webdriver.gecko.driver>-->
+                <!--<execution.environment>DEV</execution.environment>-->
+                <!--<anthem.environment>DEV</anthem.environment>-->
+                <!--<selenium.remote>true</selenium.remote>-->
+                <!--&lt;!&ndash; <proxy>true</proxy> &ndash;&gt;-->
+            <!--</properties>-->
+        <!--</profile>-->
+        <!--<profile>-->
+            <!--<id>repos</id>-->
+            <!--<repositories>-->
+                <!--<repository>-->
+                    <!--<id>Anthem artifactory</id>-->
+                    <!--<url>https://va10pwprpo001/artifactory/public</url>-->
+                <!--</repository>-->
+                <!--<repository>-->
+                    <!--<id>repo-prod-releases</id>-->
+                    <!--<name>WellPoint Maven Releases Repository</name>-->
+                    <!--<releases>-->
+                        <!--<enabled>true</enabled>-->
+                        <!--<updatePolicy>always</updatePolicy>-->
+                        <!--<checksumPolicy>warn</checksumPolicy>-->
+                    <!--</releases>-->
+                    <!--<snapshots>-->
+                        <!--<enabled>false</enabled>-->
+                        <!--<updatePolicy>never</updatePolicy>-->
+                        <!--<checksumPolicy>fail</checksumPolicy>-->
+                    <!--</snapshots>-->
+                    <!--<url>https://va10pwprpo001/artifactory/maven-releases</url>-->
+                    <!--<layout>default</layout>-->
+                <!--</repository>-->
+                <!--<repository>-->
+                    <!--<id>repo-prod-snapshots</id>-->
+                    <!--<name>WellPoint Maven Snapshots Repository</name>-->
+                    <!--<releases>-->
+                        <!--<enabled>false</enabled>-->
+                        <!--<updatePolicy>never</updatePolicy>-->
+                        <!--<checksumPolicy>fail</checksumPolicy>-->
+                    <!--</releases>-->
+                    <!--<snapshots>-->
+                        <!--<enabled>true</enabled>-->
+                        <!--<updatePolicy>always</updatePolicy>-->
+                        <!--<checksumPolicy>fail</checksumPolicy>-->
+                    <!--</snapshots>-->
+                    <!--<url>https://va10pwprpo001/artifactory/maven-snapshots</url>-->
+                    <!--<layout>default</layout>-->
+                <!--</repository>-->
+            <!--</repositories>-->
+
+            <!--<pluginRepositories>-->
+                <!--<pluginRepository>-->
+                    <!--<id>repo-prod-snapshots</id>-->
+                    <!--<url>https://va10pwprpo001/artifactory/maven-snapshots</url>-->
+                    <!--<releases>-->
+                        <!--<enabled>true</enabled>-->
+                        <!--<checksumPolicy>warn</checksumPolicy>-->
+                    <!--</releases>-->
+                    <!--<snapshots>-->
+                        <!--<enabled>true</enabled>-->
+                        <!--<checksumPolicy>warn</checksumPolicy>-->
+                    <!--</snapshots>-->
+                <!--</pluginRepository>-->
+            <!--</pluginRepositories>-->
+
+        <!--</profile>-->
+    <!--</profiles>-->
+</settings>

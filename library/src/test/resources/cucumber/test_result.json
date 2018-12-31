@@ -1,0 +1,249 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 41758238,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RestSteps.before(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 6014484055,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.onSetup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Situations display in order",
+        "description": "",
+        "id": "anreimaged-7741:--benefit-detail-situation-network-costshare;situations-display-in-order",
+        "after": [
+          {
+            "result": {
+              "duration": 3648011,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.onTearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 25627797534,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "member is logged in as user with attributes",
+            "match": {
+              "location": "BaseSteps.login(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "automated benefits testing"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3714487670,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I have navigated to the \"BenefitsFindBenefits\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "BenefitsFindBenefits",
+                  "offset": 25
+                }
+              ],
+              "location": "BaseSteps.navigateToUrl(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43126024846,
+              "error_message": "com.anthem.utils.EmptyWebElement$EmptyWebElementException: This operation cannot be done on an empty WebElement\r\n\tat com.anthem.utils.EmptyWebElement.sendKeys(EmptyWebElement.java:77)\r\n\tat com.anthem.pages.BenefitsFindBenefitsPage.searchFor(BenefitsFindBenefitsPage.java:206)\r\n\tat com.anthem.steps.benefits.BenefitDetailSituationNetworkCostshareSteps.selectBenefit(BenefitDetailSituationNetworkCostshareSteps.java:43)\r\n\tat ✽.And \"Consultation\"/\"Physician and Medical Services\" benefit is selected(com/anthem/portal/Benefits/findbenefits/ANREIMAGED-14248.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "\"Consultation\"/\"Physician and Medical Services\" benefit is selected",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Consultation",
+                  "offset": 1
+                },
+                {
+                  "val": "Physician and Medical Services",
+                  "offset": 16
+                }
+              ],
+              "location": "BenefitDetailSituationNetworkCostshareSteps.selectBenefit(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "the costshare section will display",
+            "match": {
+              "location": "BenefitDetailSituationNetworkCostshareSteps.theCostshareSectionWillDisplay()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "the default situation is displayed first",
+            "match": {
+              "location": "BenefitDetailSituationNetworkCostshareSteps.the_default_situation_is_displayed_first()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "confirm that all user situations are displayed properly",
+            "match": {
+              "location": "BenefitDetailSituationNetworkCostshareSteps.confirm_that_all_user_situations_are_displayed_properly(String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Unless Otherwise Specified"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "Home"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "Home Primary Care Physician"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "Home Specialist"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Independent Clinic"
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "Independent Clinic Primary Care Physician"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "Independent Clinic Specialist"
+                ],
+                "line": 19
+              },
+              {
+                "cells": [
+                  "Inpatient"
+                ],
+                "line": 20
+              },
+              {
+                "cells": [
+                  "Office"
+                ],
+                "line": 21
+              },
+              {
+                "cells": [
+                  "Office Primary Care Physician"
+                ],
+                "line": 22
+              },
+              {
+                "cells": [
+                  "Office Specialist"
+                ],
+                "line": 23
+              },
+              {
+                "cells": [
+                  "Outpatient"
+                ],
+                "line": 24
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@ANREIMAGED-14248"
+          },
+          {
+            "line": 4,
+            "name": "@ANREIMAGED-7741"
+          },
+          {
+            "line": 4,
+            "name": "@benefits"
+          },
+          {
+            "line": 4,
+            "name": "@virtualMagicians"
+          },
+          {
+            "line": 4,
+            "name": "@virtualMagicians4_6"
+          }
+        ]
+      }
+    ],
+    "name": "ANREIMAGED-7741:  Benefit Detail Situation Network Costshare",
+    "description": "",
+    "id": "anreimaged-7741:--benefit-detail-situation-network-costshare",
+    "keyword": "Feature",
+    "uri": "com/anthem/portal/Benefits/findbenefits/ANREIMAGED-14248.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@wip"
+      }
+    ]
+  }
+]

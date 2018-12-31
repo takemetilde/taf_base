@@ -1,0 +1,6 @@
+{
+	"grandparent" : {
+		"parent" : true,
+		"child" : false
+	}
+}

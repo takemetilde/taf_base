@@ -1,0 +1,20 @@
+*.idea/
+.project
+.classpath
+*.iml
+*.ipr
+*.iws
+target/
+.settings/
+nbactions.xml
+nb-configuration.xml
+bin/
+test-output/
+/xray
+
+*.log
+cache/
+
+# The log4j.xml file is not tracked because it is a personalized copy of log4j.xml.sample
+log4j.xml
+log4j.properties

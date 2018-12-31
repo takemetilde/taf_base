@@ -1,0 +1,115 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "The user clicks on the icon to share an article on Facebook",
+        "description": "",
+        "id": "the-user-can-share-an-article-to-facebook;the-user-clicks-on-the-icon-to-share-an-article-on-facebook",
+        "after": [
+          {
+            "result": {
+              "duration": 8618678,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.onTearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46682217384,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I visit the News Summary Page",
+            "match": {
+              "location": "NewsSummaryPageSteps.iVisitTheNewsSummaryPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 106926670,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the first link",
+            "match": {
+              "location": "NewsSummaryPageSteps.iClickOnTheFirstLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2760648065,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I visit any News Article Page",
+            "match": {
+              "location": "NewsArticlePageSteps.iVisitAnyNewsArticlePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 172554728,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on the Facebook icon",
+            "match": {
+              "location": "NewsArticlePageSteps.iClickOnTheFacebookIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1689645940,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I land on a Facebook page",
+            "match": {
+              "location": "NewsArticlePageSteps.iLandOnAFacebookPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Public-Enrollment"
+          },
+          {
+            "line": 3,
+            "name": "@scrumAndCoke"
+          },
+          {
+            "line": 3,
+            "name": "@ANREIMAGED-20623"
+          },
+          {
+            "line": 3,
+            "name": "@ANREIMAGED-19640"
+          },
+          {
+            "line": 3,
+            "name": "@2016-12"
+          }
+        ]
+      }
+    ],
+    "name": "The user can share an article to Facebook",
+    "description": "",
+    "id": "the-user-can-share-an-article-to-facebook",
+    "keyword": "Feature",
+    "uri": "com/anthem/auto/ANREIMAGED-20623.feature"
+  }
+]

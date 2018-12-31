@@ -1,0 +1,15 @@
+{
+  "mbrUid": null,
+  "hcid": null,
+  "webGuid": null,
+  "token": "foo",
+  "canEmulate": true,
+  "emulationInd": false,
+  "userNm": null,
+  "brandCd": null,
+  "userRole": null,
+  "firstNm": null,
+  "lastNm": null,
+  "dob": null,
+  "eligibility": null
+}

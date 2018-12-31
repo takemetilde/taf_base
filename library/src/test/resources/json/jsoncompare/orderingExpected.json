@@ -1,0 +1,7 @@
+{
+	"parent" : {
+		"B" : false,
+		"C" : true,
+		"A" : true
+	}
+}
