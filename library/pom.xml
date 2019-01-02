@@ -11,6 +11,7 @@
 
     <name>TAF Base Library</name>
     <artifactId>library</artifactId>
+    <packaging>jar</packaging>
 
     <dependencies>
         <!-- Screenshot -->
