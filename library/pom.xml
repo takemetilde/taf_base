@@ -12,7 +12,15 @@
     <name>TAF Base Library</name>
     <artifactId>library</artifactId>
     <packaging>jar</packaging>
-    <version>${taf_base.version}</version>
+    <version>1.0-SNAPSHOT</version>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>ubuntu-snapshots</name>
+            <url>http://localhost:8081/artifactory/libs-snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>
 
     <dependencies>
         <!-- Screenshot -->

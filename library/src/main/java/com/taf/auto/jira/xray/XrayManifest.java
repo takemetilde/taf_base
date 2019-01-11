@@ -1,5 +1,6 @@
 package com.taf.auto.jira.xray;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import com.taf.auto.IOUtil;
 import com.taf.auto.io.JSONUtil;
 import com.taf.auto.jira.IssueTypes;
@@ -9,7 +10,6 @@ import com.taf.auto.jira.pojo.xray.XrayFields;
 import com.taf.auto.jira.pojo.xray.XrayTest;
 import com.taf.auto.jira.pojo.xray.XrayTestPlan;
 import com.taf.auto.jira.pojo.xray.XrayTestSet;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,10 +19,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
-import static com.taf.auto.IOUtil.mkdirs;
 import static com.taf.auto.common.PrettyPrinter.prettyArray;
 import static com.taf.auto.io.JSONUtil.decode;
 import static com.taf.auto.io.JSONUtil.encode;
+import static java.lang.String.format;
 
 /**
  * POJO that contains various properties of interest to xray-push-maven-plugin so it can add additional information

@@ -25,6 +25,8 @@ import java.util.stream.Collectors;
 import static com.taf.auto.IOUtil.NL;
 import static com.taf.auto.StringUtil.splitNewlines;
 import static com.taf.auto.jira.xray.XrayUtil.fetchTestsByJQL;
+import static java.lang.String.format;
+
 
 /**
  * Emits a fully formed scenario from an Xray Test Issue.

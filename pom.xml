@@ -25,6 +25,14 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
 
+    <distributionManagement>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>ubuntu-snapshots</name>
+            <url>http://localhost:8081/artifactory/libs-snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
