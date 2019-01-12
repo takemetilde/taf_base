@@ -3,9 +3,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <name>Automation Framework Base</name>
     <groupId>taf</groupId>
     <artifactId>taf_base</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-RELEASE</version>
     
     <modules>
         <module>library</module>
@@ -29,8 +30,13 @@
         <snapshotRepository>
             <id>snapshots</id>
             <name>ubuntu-snapshots</name>
-            <url>http://localhost:8081/artifactory/libs-snapshot</url>
+            <url>http://127.0.0.1:8081/artifactory/libs-snapshot</url>
         </snapshotRepository>
+        <repository>
+            <id>central</id>
+            <name>ubuntu-releases</name>
+            <url>http://127.0.0.1:8081/artifactory/libs-release</url>
+        </repository>
     </distributionManagement>
 
     <dependencyManagement>

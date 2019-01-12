@@ -7,14 +7,14 @@
     <parent>
         <groupId>taf</groupId>
         <artifactId>taf_base</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0-RELEASE</version>
     </parent>
 
 
     <name>TAF Automation Framework</name>
     <artifactId>framework</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-RELEASE</version>
 
     <properties>
         <!-- If a child project wants to run unit tests, set this to false. -->
