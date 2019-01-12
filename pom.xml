@@ -6,7 +6,7 @@
     <name>Automation Framework Base</name>
     <groupId>taf</groupId>
     <artifactId>taf_base</artifactId>
-    <version>1.0.0-RELEASE</version>
+    <version>1.0.1-RELEASE</version>
     
     <modules>
         <module>library</module>
@@ -254,6 +254,27 @@
                     <configuration>
                         <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
                     </configuration>
+                </plugin>
+
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-enforcer-plugin</artifactId>
+                    <version>1.4.1</version>
+                    <executions>
+                        <execution>
+                            <id>enforce-java</id>
+                            <goals>
+                                <goal>enforce</goal>
+                            </goals>
+                            <configuration>
+                                <rules>
+                                    <requireJavaVersion>
+                                        <version>[1.8.0-51,)</version>
+                                    </requireJavaVersion>
+                                </rules>
+                            </configuration>
+                        </execution>
+                    </executions>
                 </plugin>
 
                 <!--<plugin>-->
