@@ -11,7 +11,9 @@
     <modules>
         <module>library</module>
         <module>framework</module>
+        <module>apigen</module>
     </modules>
+
     <packaging>pom</packaging>
 
     <properties>
@@ -89,6 +91,7 @@
                 </exclusions>
             </dependency>
 
+            <!-- Upgrade to TestNG -->
             <dependency>
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>

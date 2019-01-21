@@ -14,8 +14,7 @@ import static org.apache.commons.lang.StringUtils.isEmpty;
 
 /**
  * Utilities for communicating with Bamboo via its REST API.
- *
- * @author AF04261 mmorton
+
  */
 public final class BambooUtil {
     private static final Logger LOG = LoggerFactory.getLogger(BambooUtil.class);
