@@ -1,0 +1,60 @@
+.root-header {
+    -fx-background-color: lightgray;
+}
+
+.root-overlay {
+    -fx-background-color: #c0c0c055;
+}
+
+.label-title {
+    -fx-text-alignment: center;
+    -fx-font-size: 16;
+}
+
+.label-choose-module-title {
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+}
+
+.button-continue {
+    -fx-font-size: 14;
+}
+
+.button-switch-project {
+    -fx-font-size: 9;
+}
+
+.label-project {
+    -fx-font-size: 16;
+}
+
+.label-please-wait {
+    -fx-font-size: 16;
+    -fx-font-weight: bold;
+}
+
+.vbox-module-chooser {
+    -fx-alignment: top-center;
+    -fx-spacing: 4;
+    -fx-fill-width: true;
+}
+
+.label-jira-key {
+    -fx-font-size: 14;
+    -fx-font-weight: bold
+}
+
+.text-monospace {
+    -fx-font-family: monospace;
+}
+
+.pane-labeled {
+    -fx-hgap: 2;
+    -fx-vgap: 4;
+    -fx-alignment: center;
+    -fx-padding: 4;
+}
+
+.pane-padded {
+    -fx-padding: 4;
+}

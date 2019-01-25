@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.taf.auto.io.JSONCompareTest
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.12 sec - in com.taf.auto.io.JSONCompareTest

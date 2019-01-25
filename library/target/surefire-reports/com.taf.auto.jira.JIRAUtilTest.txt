@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.taf.auto.jira.JIRAUtilTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 10, Time elapsed: 0.003 sec - in com.taf.auto.jira.JIRAUtilTest

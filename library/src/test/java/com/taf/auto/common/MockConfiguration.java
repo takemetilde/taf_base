@@ -8,7 +8,6 @@ import static com.taf.auto.common.Configuration.MOCK_ENV;
 /**
  * A configuration adapter for mocking required data.
  *
- * @author AF04261 mmorton
  */
 public class MockConfiguration implements Consumer<Properties> {
 
