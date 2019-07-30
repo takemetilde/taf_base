@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>tdm_client</artifactId>
+        <groupId>taf</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>taf</groupId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <artifactId>jsonschema2pojo</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.jsonschema2pojo</groupId>
+            <artifactId>jsonschema2pojo-maven-plugin</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+    </dependencies>
+
+
+    <build>
+        <plugins>
+<!--            https://joelittlejohn.github.io/jsonschema2pojo/site/1.0.1/generate-mojo.html-->
+            <plugin>
+                <groupId>org.jsonschema2pojo</groupId>
+                <artifactId>jsonschema2pojo-maven-plugin</artifactId>
+                <version>1.0.1</version>
+                <configuration>
+                    <sourcePaths>${basedir}/src/main/resources/schema/</sourcePaths>
+                    <outputDirectory>${basedir}/target/generated-sources/jsonschema2pojo/</outputDirectory>
+                    <sourceType>json</sourceType>
+                    <skip>false</skip>
+                    <annotationStyle>none</annotationStyle>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+</project>

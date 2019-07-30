@@ -1,0 +1,6 @@
+restclient\RestClient.class
+resource\Posts.class
+auth\Authentication.class
+resource\PostLists.class
+auth\BasicAuthentication.class
+restclient\RestClient$1.class

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generator="Robot 3.1.1 (Jython 2.7.0 on java1.8.0_191)" generated="20190606 10:32:04.220">
+<suite source="C:\dev\Bitbucket\jaxrs_client\robotframework\src\test\java\robot" name="Robot" id="s1">
+<suite source="C:\dev\Bitbucket\jaxrs_client\robotframework\src\test\java\robot\test.robot" name="Test" id="s1-s1">
+<test name="TC_001 Browser Start and Close" id="s1-s1-t1">
+<kw library="Selenium2Library" name="Open Browser">
+<doc>Opens a new browser instance to given URL.&lt;br&gt;
+ &lt;br&gt;
+ Possible values for browser are as follows:
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;firefox&lt;/td&gt;
+ &lt;td&gt;FireFox&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ff&lt;/td&gt;
+ &lt;td&gt;FireFox&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;internetexplorer&lt;/td&gt;
+ &lt;td&gt;Internet Explorer&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ie&lt;/td&gt;
+ &lt;td&gt;Internet Explorer&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;googlechrome&lt;/td&gt;
+ &lt;td&gt;Google Chrome&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;gc&lt;/td&gt;
+ &lt;td&gt;Google Chrome&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;chrome&lt;/td&gt;
+ &lt;td&gt;Google Chrome&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;opera&lt;/td&gt;
+ &lt;td&gt;Opera&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;phantomjs&lt;/td&gt;
+ &lt;td&gt;PhantomJS&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;htmlunitwithjs&lt;/td&gt;
+ &lt;td&gt;HTMLUnit with Javascipt support&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;safari&lt;/td&gt;
+ &lt;td&gt;Safari&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;ipad&lt;/td&gt;
+ &lt;td&gt;iPad&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;iphone&lt;/td&gt;
+ &lt;td&gt;iPhone&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;android&lt;/td&gt;
+ &lt;td&gt;Android&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;htmlunit&lt;/td&gt;
+ &lt;td&gt;HTMLUnit&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ Returns the index of the newly created browser instance which can be used
+ later to switch back to it. Index starts from 1 and is reset back to it
+ when the `Close All Browsers` keyword is used.&lt;br&gt;
+ &lt;br&gt;
+ &lt;b&gt;DesiredCapabilities&lt;/b&gt;&lt;br&gt;
+ The DesiredCapabilities can be specified in a simple key:value format or
+ as a JSON object. With the JSON format more complex parameters, like the
+ proxy, can be configured.&lt;br&gt;
+ &lt;br&gt;
+ Example of desiredCapabilities as simple string:&lt;br&gt;
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;platform:Windows 8,browserName:firefox,version:25&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ Example of desiredCapabilities as JSON object:&lt;br&gt;
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;
+ {&lt;br&gt;
+ &amp;emsp;"platform":"Windows 8",&lt;br&gt;
+ &amp;emsp;"browserName":"firefox",&lt;br&gt;
+ &amp;emsp;"version":"25",&lt;br&gt;
+ &amp;emsp;"proxy":&lt;br&gt;
+ &amp;emsp;{&lt;br&gt;
+ &amp;emsp;&amp;emsp;"proxyType":"manual",&lt;br&gt;
+ &amp;emsp;&amp;emsp;"httpProxy":"localhost:8118"&lt;br&gt;
+ &amp;emsp;}&lt;br&gt;
+ }&lt;br&gt;
+ &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ &lt;b&gt;BrowserOptions&lt;/b&gt;&lt;br&gt;
+ The BrowserOptions can be specified as JSON object to set more complex
+ browser specific parameters. At the moment only the following browsers
+ with the listed options are implemented.&lt;br&gt;
+ &lt;br&gt;
+ Firefox:
+ &lt;table border="1" cellspacing="0" summary=""&gt;
+ &lt;tr&gt;
+ &lt;td&gt;
+ {&lt;br&gt;
+ &amp;emsp;"preferences":&lt;br&gt;
+ &amp;emsp;{&lt;br&gt;
+ &amp;emsp;&amp;emsp;"extensions.firebug.currentVersion":"1.8.1",&lt;br&gt;
+ &amp;emsp;&amp;emsp;"extensions.firebug.addonBarOpened":true,&lt;br&gt;
+ &amp;emsp;&amp;emsp;"extensions.firebug.enableSites":true&lt;br&gt;
+ &amp;emsp;}&lt;br&gt;
+ &amp;emsp;"extensions":&lt;br&gt;
+ &amp;emsp;[&lt;br&gt;
+ &amp;emsp;&amp;emsp;"firebug-1.8.1.xpi",&lt;br&gt;
+ &amp;emsp;&amp;emsp;"modify_headers-0.7.1.1-fx.xpi"&lt;br&gt;
+ &amp;emsp;]&lt;br&gt;
+ }&lt;br&gt;
+ &lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/table&gt;
+ &lt;br&gt;
+ &lt;b&gt;Internet Explorer&lt;/b&gt;&lt;br&gt;
+ Note, that you will encounter strange behavior, if you open multiple
+ Internet Explorer browser instances. That is also why `Switch Browser`
+ only works with one IE browser at most. For more information see: &lt;a
+ href=
+ "http://selenium-grid.seleniumhq.org/faq.html#i_get_some_strange_errors_when_i_run_multiple_internet_explorer_instances_on_the_same_machine"
+ &gt;Strange errors with multiple IE instances&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;url&lt;/b&gt;&amp;nbsp;The URL to open in the newly created browser instance.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;browserName&lt;/b&gt;&amp;nbsp;Default=firefox. Optional name of the browser to start.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;alias&lt;/b&gt;&amp;nbsp;Default=NONE. Optional alias for the newly created browser
+            instance. The alias can be used later for switching between
+            browsers instances, just as returned index.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;remoteUrl&lt;/b&gt;&amp;nbsp;Default=False. Optional remote grid URL. When specified no
+            local WebDriver instance is created, but a network connection
+            to a Selenium 2 WebDriver Grid Hub at the given URL is opened.&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;desiredCapabilities&lt;/b&gt;&amp;nbsp;Default=NONE. Optional desired capabilities of the newly
+            created remote browser instances can be specified in a simple
+            key1:val1,key2:val2 format or as a JSON object (see examples
+            above). Used to communicate to the remote grid, which kind of
+            browser, etc. should be used. For more information see: &lt;a
+            href=
+            "http://code.google.com/p/selenium/wiki/DesiredCapabilities"
+            &gt;DesiredCapabilities&lt;/a&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;browserOptions&lt;/b&gt;&amp;nbsp;Default=NONE. Extended browser options as JSON structure.&lt;br&gt;&lt;br&gt;&lt;b&gt;Returns:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;The index of the newly created browser instance.&lt;br&gt;&lt;br&gt;&lt;b&gt;See Also:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Close All Browsers`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Close Browser`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Switch Browser`&lt;br&gt;</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg level="INFO" timestamp="20190606 10:32:05.296">browserName: Chrome</msg>
+<msg level="INFO" timestamp="20190606 10:32:05.298">Opening browser 'Chrome' to base url 'http://www.google.com'</msg>
+<msg level="WARN" timestamp="20190606 10:32:05.302">Opening browser 'Chrome' to base url 'http://www.google.com' failed</msg>
+<kw library="Selenium2Library" name="Capture Page Screenshot">
+<doc>Take a screenshot of the current page and embed it into the log.&lt;br&gt;
+ &lt;br&gt;
+ The &lt;b&gt;filename&lt;/b&gt; argument specifies the name of the file to write the
+ screenshot into. If no filename is given, the screenshot is saved into
+ file selenium-screenshot-&amp;lt;counter&amp;gt;.png under the directory where
+ the Robot Framework log file is written into. The filename is also
+ considered relative to the same directory, if it is not given in absolute
+ format.&lt;br&gt;
+ &lt;br&gt;
+ A CSS can be used to modify how the screenshot is taken. By default the
+ background color is changed to avoid possible problems with background
+ leaking when the page layout is somehow broken.&lt;br&gt;&lt;br&gt;&lt;b&gt;Parameters:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;b&gt;filename&lt;/b&gt;&amp;nbsp;Default=NONE. Name of the file to write.&lt;br&gt;</doc>
+<msg level="WARN" timestamp="20190606 10:32:05.326">Can't take screenshot. No open browser found</msg>
+<status endtime="20190606 10:32:05.329" starttime="20190606 10:32:05.313" status="PASS"></status>
+</kw>
+<msg level="FAIL" timestamp="20190606 10:32:05.344">java.lang.NoClassDefFoundError: org/openqa/selenium/remote/DesiredCapabilities</msg>
+<status endtime="20190606 10:32:05.345" starttime="20190606 10:32:05.283" status="FAIL"></status>
+</kw>
+<status critical="yes" endtime="20190606 10:32:05.347" starttime="20190606 10:32:05.278" status="FAIL">java.lang.NoClassDefFoundError: org/openqa/selenium/remote/DesiredCapabilities</status>
+</test>
+<doc>Login Test Case.</doc>
+<status endtime="20190606 10:32:05.349" starttime="20190606 10:32:04.464" status="FAIL"></status>
+</suite>
+<suite source="C:\dev\Bitbucket\jaxrs_client\robotframework\src\test\java\robot\testlib.robot" name="Testlib" id="s1-s2">
+<test name="TC_001 Browser Start and Close" id="s1-s2-t1">
+<kw library="library.CustomTestLibrary" name="Print Test Keyword">
+<arguments>
+<arg>${keyword}</arg>
+<arg>Keyword2</arg>
+</arguments>
+<status endtime="20190606 10:32:05.414" starttime="20190606 10:32:05.406" status="PASS"></status>
+</kw>
+<status critical="yes" endtime="20190606 10:32:05.416" starttime="20190606 10:32:05.403" status="PASS"></status>
+</test>
+<doc>Keyword Test Case.</doc>
+<status endtime="20190606 10:32:05.419" starttime="20190606 10:32:05.356" status="PASS"></status>
+</suite>
+<status endtime="20190606 10:32:05.425" starttime="20190606 10:32:04.235" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1">Critical Tests</stat>
+<stat pass="1" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="1" name="Robot" id="s1">Robot</stat>
+<stat pass="0" fail="1" name="Test" id="s1-s1">Robot.Test</stat>
+<stat pass="1" fail="0" name="Testlib" id="s1-s2">Robot.Testlib</stat>
+</suite>
+</statistics>
+<errors>
+<msg level="WARN" timestamp="20190606 10:32:05.302">Opening browser 'Chrome' to base url 'http://www.google.com' failed</msg>
+<msg level="WARN" timestamp="20190606 10:32:05.326">Can't take screenshot. No open browser found</msg>
+</errors>
+</robot>

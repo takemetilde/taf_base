@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.taf.auto.common.PrettyPrinterTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec - in com.taf.auto.common.PrettyPrinterTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec - in com.taf.auto.common.PrettyPrinterTest

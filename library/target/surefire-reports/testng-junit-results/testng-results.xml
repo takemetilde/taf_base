@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="18" failed="0" ignored="0" total="76" passed="58">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="2493" started-at="2019-06-30T00:07:27Z" finished-at="2019-06-30T00:07:29Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="2493" started-at="2019-06-30T00:07:27Z" finished-at="2019-06-30T00:07:29Z">
+      <class name="com.taf.auto.data.DataGenUtilTest">
+        <test-method status="PASS" signature="generateLetters()" name="generateLetters" duration-ms="1" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateLetters -->
+      </class> <!-- com.taf.auto.data.DataGenUtilTest -->
+      <class name="com.taf.auto.jira.xray.pojo.XrayExecutionResultTest">
+        <test-method status="PASS" signature="testDecode() throws java.lang.Exception" name="testDecode" duration-ms="185" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDecode -->
+      </class> <!-- com.taf.auto.jira.xray.pojo.XrayExecutionResultTest -->
+      <class name="com.taf.auto.ElementUtilTest">
+        <test-method status="PASS" signature="getByFromField_withFindBys()" name="getByFromField_withFindBys" duration-ms="16" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getByFromField_withFindBys -->
+        <test-method status="PASS" signature="webElementToString()" name="webElementToString" duration-ms="17" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webElementToString -->
+        <test-method status="PASS" signature="getByFromField_withFindAll()" name="getByFromField_withFindAll" duration-ms="14" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getByFromField_withFindAll -->
+        <test-method status="PASS" signature="getByFromField_noField()" name="getByFromField_noField" duration-ms="17" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getByFromField_noField -->
+        <test-method status="PASS" signature="getByFromField_withFindBy()" name="getByFromField_withFindBy" duration-ms="17" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getByFromField_withFindBy -->
+        <test-method status="PASS" signature="getByFromField_noFindBy()" name="getByFromField_noFindBy" duration-ms="16" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getByFromField_noFindBy -->
+      </class> <!-- com.taf.auto.ElementUtilTest -->
+      <class name="com.taf.auto.jira.xray.XrayTestStatusesTest">
+        <test-method status="PASS" signature="testNames()" name="testNames" duration-ms="1" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNames -->
+      </class> <!-- com.taf.auto.jira.xray.XrayTestStatusesTest -->
+      <class name="com.taf.auto.jira.TestDecommissionerTest">
+        <test-method status="PASS" signature="shouldDecommissionTest() throws java.io.IOException,java.net.URISyntaxException" name="shouldDecommissionTest" duration-ms="24" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldDecommissionTest -->
+        <test-method status="PASS" signature="shouldNotDecommissionTest() throws java.io.IOException,java.net.URISyntaxException" name="shouldNotDecommissionTest" duration-ms="47" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotDecommissionTest -->
+      </class> <!-- com.taf.auto.jira.TestDecommissionerTest -->
+      <class name="com.taf.auto.page.AbstractPageTest">
+        <test-method status="PASS" signature="lackOfInstallPatternRejected()" name="lackOfInstallPatternRejected" duration-ms="84" started-at="2019-06-29T20:07:27Z" finished-at="2019-06-29T20:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lackOfInstallPatternRejected -->
+        <test-method status="PASS" signature="installPatternEnforced()" name="installPatternEnforced" duration-ms="90" started-at="2019-06-29T20:07:27Z" finished-at="2019-06-29T20:07:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- installPatternEnforced -->
+      </class> <!-- com.taf.auto.page.AbstractPageTest -->
+      <class name="com.taf.auto.io.JSONCompareTest">
+        <test-method status="PASS" signature="deepKeySupersetComparisonTest() throws java.io.IOException,java.net.URISyntaxException" name="deepKeySupersetComparisonTest" duration-ms="35" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deepKeySupersetComparisonTest -->
+        <test-method status="PASS" signature="keyChangeSupersetComparisonTest() throws java.io.IOException,java.net.URISyntaxException" name="keyChangeSupersetComparisonTest" duration-ms="49" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyChangeSupersetComparisonTest -->
+        <test-method status="PASS" signature="omissionsSupersetComparisonTest() throws java.io.IOException,java.net.URISyntaxException" name="omissionsSupersetComparisonTest" duration-ms="45" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- omissionsSupersetComparisonTest -->
+        <test-method status="PASS" signature="valueChangeSupersetComparisonTest() throws java.io.IOException,java.net.URISyntaxException" name="valueChangeSupersetComparisonTest" duration-ms="27" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- valueChangeSupersetComparisonTest -->
+        <test-method status="PASS" signature="orderingSupersetComparisonTest() throws java.io.IOException,java.net.URISyntaxException" name="orderingSupersetComparisonTest" duration-ms="31" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderingSupersetComparisonTest -->
+        <test-method status="PASS" signature="deepArraySupersetComparisonTest() throws java.io.IOException,java.net.URISyntaxException" name="deepArraySupersetComparisonTest" duration-ms="42" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deepArraySupersetComparisonTest -->
+        <test-method status="PASS" signature="supersetComparisonTest()" name="supersetComparisonTest" duration-ms="37" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- supersetComparisonTest -->
+        <test-method status="PASS" signature="additionsSupersetComparisonTest() throws java.io.IOException,java.net.URISyntaxException" name="additionsSupersetComparisonTest" duration-ms="33" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- additionsSupersetComparisonTest -->
+        <test-method status="PASS" signature="hierarchySupersetComparisonTest() throws java.io.IOException,java.net.URISyntaxException" name="hierarchySupersetComparisonTest" duration-ms="63" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hierarchySupersetComparisonTest -->
+        <test-method status="PASS" signature="trivialSupersetComparisonTest() throws java.io.IOException,java.net.URISyntaxException" name="trivialSupersetComparisonTest" duration-ms="58" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trivialSupersetComparisonTest -->
+        <test-method status="PASS" signature="nestedSupersetComparisonTest() throws java.io.IOException,java.net.URISyntaxException" name="nestedSupersetComparisonTest" duration-ms="50" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nestedSupersetComparisonTest -->
+        <test-method status="PASS" signature="multipleNestingSupersetComparisonTest() throws java.io.IOException,java.net.URISyntaxException" name="multipleNestingSupersetComparisonTest" duration-ms="60" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleNestingSupersetComparisonTest -->
+      </class> <!-- com.taf.auto.io.JSONCompareTest -->
+      <class name="com.taf.auto.cucumber.pojo.CucumberTestResultTest">
+        <test-method status="PASS" signature="testDecode() throws java.lang.Exception" name="testDecode" duration-ms="11" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDecode -->
+        <test-method status="PASS" signature="testDecode2() throws java.lang.Exception" name="testDecode2" duration-ms="5" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDecode2 -->
+      </class> <!-- com.taf.auto.cucumber.pojo.CucumberTestResultTest -->
+      <class name="com.taf.auto.jira.xray.ScenarioEmitterTest">
+        <test-method status="PASS" signature="validateMalformedTest()" name="validateMalformedTest" duration-ms="88" started-at="2019-06-29T20:07:28Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMalformedTest -->
+        <test-method status="PASS" signature="validateTest()" name="validateTest" duration-ms="84" started-at="2019-06-29T20:07:28Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTest -->
+        <test-method status="PASS" signature="validateEmptyTest()" name="validateEmptyTest" duration-ms="84" started-at="2019-06-29T20:07:28Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEmptyTest -->
+      </class> <!-- com.taf.auto.jira.xray.ScenarioEmitterTest -->
+      <class name="com.taf.auto.ColorUtilTest">
+        <test-method status="PASS" signature="extractColor()" name="extractColor" duration-ms="2" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extractColor -->
+        <test-method status="PASS" signature="hexToRGBASpectrum()" name="hexToRGBASpectrum" duration-ms="3" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hexToRGBASpectrum -->
+        <test-method status="PASS" signature="hexToRGBAGarbage()" name="hexToRGBAGarbage" duration-ms="1" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hexToRGBAGarbage -->
+      </class> <!-- com.taf.auto.ColorUtilTest -->
+      <class name="com.taf.auto.metrics.MetricsToSplunkReporterTest">
+        <test-method status="PASS" signature="formatting()" name="formatting" duration-ms="6" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formatting -->
+      </class> <!-- com.taf.auto.metrics.MetricsToSplunkReporterTest -->
+      <class name="com.taf.auto.accessibility.JSAccessibilityFactoryTest">
+        <test-method status="PASS" signature="locateAuditScript() throws java.io.IOException" name="locateAuditScript" duration-ms="6" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateAuditScript -->
+        <test-method status="PASS" signature="locateJQueryScript() throws java.io.IOException" name="locateJQueryScript" duration-ms="7" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locateJQueryScript -->
+      </class> <!-- com.taf.auto.accessibility.JSAccessibilityFactoryTest -->
+      <class name="com.taf.auto.common.PrettyPrinterTest">
+        <test-method status="PASS" signature="recordColumnWidthsTest()" name="recordColumnWidthsTest" duration-ms="13" started-at="2019-06-29T20:07:28Z" finished-at="2019-06-29T20:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordColumnWidthsTest -->
+        <test-method status="PASS" signature="standardizeColumnWidthsTest()" name="standardizeColumnWidthsTest" duration-ms="11" started-at="2019-06-29T20:07:28Z" finished-at="2019-06-29T20:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standardizeColumnWidthsTest -->
+        <test-method status="PASS" signature="prettyArray()" name="prettyArray" duration-ms="12" started-at="2019-06-29T20:07:28Z" finished-at="2019-06-29T20:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prettyArray -->
+      </class> <!-- com.taf.auto.common.PrettyPrinterTest -->
+      <class name="com.taf.auto.jira.pojo.xray.TestXrayUtil">
+        <test-method status="SKIP" signature="fetchIssuesByTestSetTest() throws java.io.IOException" name="fetchIssuesByTestSetTest" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetchIssuesByTestSetTest -->
+      </class> <!-- com.taf.auto.jira.pojo.xray.TestXrayUtil -->
+      <class name="com.taf.auto.cucumber.CucumberUtilTest">
+        <test-method status="PASS" signature="testDeriveXrayTestKeyFromURI()" name="testDeriveXrayTestKeyFromURI" duration-ms="2" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeriveXrayTestKeyFromURI -->
+        <test-method status="PASS" signature="testExtractMergeKey()" name="testExtractMergeKey" duration-ms="2" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testExtractMergeKey -->
+        <test-method status="PASS" signature="testMergeTestResultsToXray() throws java.lang.Exception" name="testMergeTestResultsToXray" duration-ms="39" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMergeTestResultsToXray -->
+      </class> <!-- com.taf.auto.cucumber.CucumberUtilTest -->
+      <class name="com.taf.auto.rest.RestUtilTest">
+        <test-method status="PASS" signature="validateStatusCodeTest()" name="validateStatusCodeTest" duration-ms="1" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCodeTest -->
+      </class> <!-- com.taf.auto.rest.RestUtilTest -->
+      <class name="com.taf.auto.jira.JIRAUtilTest">
+        <test-method status="SKIP" signature="testUpdateSummary()" name="testUpdateSummary" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateSummary -->
+        <test-method status="SKIP" signature="testManageComment()" name="testManageComment" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testManageComment -->
+        <test-method status="SKIP" signature="testUpdateSprint()" name="testUpdateSprint" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateSprint -->
+        <test-method status="SKIP" signature="testUpdateRevision()" name="testUpdateRevision" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateRevision -->
+        <test-method status="SKIP" signature="testUpdateIssueRemoveLabel()" name="testUpdateIssueRemoveLabel" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateIssueRemoveLabel -->
+        <test-method status="SKIP" signature="testUpdateITTeam()" name="testUpdateITTeam" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateITTeam -->
+        <test-method status="SKIP" signature="testUpdateEnv()" name="testUpdateEnv" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateEnv -->
+        <test-method status="SKIP" signature="testUpdateFixVersion()" name="testUpdateFixVersion" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateFixVersion -->
+        <test-method status="SKIP" signature="testRemoveFixVersion()" name="testRemoveFixVersion" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveFixVersion -->
+        <test-method status="SKIP" signature="testAddLabels()" name="testAddLabels" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddLabels -->
+      </class> <!-- com.taf.auto.jira.JIRAUtilTest -->
+      <class name="com.taf.auto.jira.app.ui.fetch.XrayFetchPageTest">
+        <test-method status="PASS" signature="splitKeysTest()" name="splitKeysTest" duration-ms="49" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- splitKeysTest -->
+      </class> <!-- com.taf.auto.jira.app.ui.fetch.XrayFetchPageTest -->
+      <class name="com.taf.auto.steps.MultiStepAssertorTest">
+        <test-method status="PASS" signature="assertAllWithNoResultsIsSuccessful()" name="assertAllWithNoResultsIsSuccessful" duration-ms="2" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertAllWithNoResultsIsSuccessful -->
+        <test-method status="PASS" signature="assertFailWithException()" name="assertFailWithException" duration-ms="2" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertFailWithException -->
+        <test-method status="PASS" signature="assertTrueWithFalseResult()" name="assertTrueWithFalseResult" duration-ms="3" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertTrueWithFalseResult -->
+        <test-method status="PASS" signature="assertFailWithMessage()" name="assertFailWithMessage" duration-ms="3" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertFailWithMessage -->
+        <test-method status="PASS" signature="assertAllWithClearedResultsIsSuccessful()" name="assertAllWithClearedResultsIsSuccessful" duration-ms="1" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertAllWithClearedResultsIsSuccessful -->
+        <test-method status="PASS" signature="assertFalseWithTrueResult()" name="assertFalseWithTrueResult" duration-ms="3" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertFalseWithTrueResult -->
+        <test-method status="PASS" signature="noErrorIfNoAssertAllCalled()" name="noErrorIfNoAssertAllCalled" duration-ms="2" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noErrorIfNoAssertAllCalled -->
+        <test-method status="PASS" signature="assertAllWithSuccessfulResultsIsSuccessful()" name="assertAllWithSuccessfulResultsIsSuccessful" duration-ms="3" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assertAllWithSuccessfulResultsIsSuccessful -->
+      </class> <!-- com.taf.auto.steps.MultiStepAssertorTest -->
+      <class name="com.taf.auto.IOUtilTest">
+        <test-method status="PASS" signature="findNextAvailableTest() throws java.io.IOException" name="findNextAvailableTest" duration-ms="8" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findNextAvailableTest -->
+      </class> <!-- com.taf.auto.IOUtilTest -->
+      <class name="com.taf.auto.jira.pojo.xray.XrayTestTest">
+        <test-method status="SKIP" signature="test22174() throws java.io.IOException" name="test22174" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test22174 -->
+        <test-method status="SKIP" signature="test14845() throws java.io.IOException" name="test14845" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test14845 -->
+        <test-method status="SKIP" signature="test19303() throws java.io.IOException" name="test19303" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test19303 -->
+        <test-method status="SKIP" signature="test16101() throws java.io.IOException" name="test16101" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test16101 -->
+        <test-method status="SKIP" signature="test12430() throws java.io.IOException" name="test12430" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test12430 -->
+        <test-method status="SKIP" signature="test15861() throws java.io.IOException" name="test15861" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test15861 -->
+        <test-method status="SKIP" signature="test21188() throws java.io.IOException" name="test21188" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test21188 -->
+      </class> <!-- com.taf.auto.jira.pojo.xray.XrayTestTest -->
+      <class name="com.taf.auto.StringUtilTest">
+        <test-method status="PASS" signature="allLinesEqualTest()" name="allLinesEqualTest" duration-ms="1" started-at="2019-06-29T20:07:28Z" finished-at="2019-06-29T20:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allLinesEqualTest -->
+        <test-method status="PASS" signature="stripQuotedTest()" name="stripQuotedTest" duration-ms="2" started-at="2019-06-29T20:07:28Z" finished-at="2019-06-29T20:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stripQuotedTest -->
+        <test-method status="PASS" signature="stripTrailingIndexTest()" name="stripTrailingIndexTest" duration-ms="1" started-at="2019-06-29T20:07:28Z" finished-at="2019-06-29T20:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stripTrailingIndexTest -->
+      </class> <!-- com.taf.auto.StringUtilTest -->
+      <class name="com.taf.auto.spellcheck.SpellingScannerTest">
+        <test-method status="PASS" signature="rudimentary() throws java.io.IOException" name="rudimentary" duration-ms="1769" started-at="2019-06-29T20:07:27Z" finished-at="2019-06-29T20:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rudimentary -->
+      </class> <!-- com.taf.auto.spellcheck.SpellingScannerTest -->
+      <class name="com.taf.auto.data.DataValidationUtilTest">
+        <test-method status="PASS" signature="isLetter()" name="isLetter" duration-ms="0" started-at="2019-06-29T20:07:29Z" finished-at="2019-06-29T20:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isLetter -->
+      </class> <!-- com.taf.auto.data.DataValidationUtilTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

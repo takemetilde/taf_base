@@ -1,0 +1,467 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>58/0/18</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jun 29 20:07:27 EDT 2019</td>
+</tr>
+<tr><td>Total time:</td><td>2 seconds (2493 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.taf.auto.io.JSONCompareTest.additionsSupersetComparisonTest()'><b>additionsSupersetComparisonTest</b><br>Test class: com.taf.auto.io.JSONCompareTest</td>
+<td></td>
+<td>0</td>
+<td>additionsSupersetComparisonTest(com.taf.auto.io.JSONCompareTest)</td></tr>
+<tr>
+<td title='com.taf.auto.StringUtilTest.allLinesEqualTest()'><b>allLinesEqualTest</b><br>Test class: com.taf.auto.StringUtilTest</td>
+<td></td>
+<td>0</td>
+<td>allLinesEqualTest(com.taf.auto.StringUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.steps.MultiStepAssertorTest.assertAllWithClearedResultsIsSuccessful()'><b>assertAllWithClearedResultsIsSuccessful</b><br>Test class: com.taf.auto.steps.MultiStepAssertorTest</td>
+<td></td>
+<td>0</td>
+<td>assertAllWithClearedResultsIsSuccessful(com.taf.auto.steps.MultiStepAssertorTest)</td></tr>
+<tr>
+<td title='com.taf.auto.steps.MultiStepAssertorTest.assertAllWithNoResultsIsSuccessful()'><b>assertAllWithNoResultsIsSuccessful</b><br>Test class: com.taf.auto.steps.MultiStepAssertorTest</td>
+<td></td>
+<td>0</td>
+<td>assertAllWithNoResultsIsSuccessful(com.taf.auto.steps.MultiStepAssertorTest)</td></tr>
+<tr>
+<td title='com.taf.auto.steps.MultiStepAssertorTest.assertAllWithSuccessfulResultsIsSuccessful()'><b>assertAllWithSuccessfulResultsIsSuccessful</b><br>Test class: com.taf.auto.steps.MultiStepAssertorTest</td>
+<td></td>
+<td>0</td>
+<td>assertAllWithSuccessfulResultsIsSuccessful(com.taf.auto.steps.MultiStepAssertorTest)</td></tr>
+<tr>
+<td title='com.taf.auto.steps.MultiStepAssertorTest.assertFailWithException()'><b>assertFailWithException</b><br>Test class: com.taf.auto.steps.MultiStepAssertorTest</td>
+<td></td>
+<td>0</td>
+<td>assertFailWithException(com.taf.auto.steps.MultiStepAssertorTest)</td></tr>
+<tr>
+<td title='com.taf.auto.steps.MultiStepAssertorTest.assertFailWithMessage()'><b>assertFailWithMessage</b><br>Test class: com.taf.auto.steps.MultiStepAssertorTest</td>
+<td></td>
+<td>0</td>
+<td>assertFailWithMessage(com.taf.auto.steps.MultiStepAssertorTest)</td></tr>
+<tr>
+<td title='com.taf.auto.steps.MultiStepAssertorTest.assertFalseWithTrueResult()'><b>assertFalseWithTrueResult</b><br>Test class: com.taf.auto.steps.MultiStepAssertorTest</td>
+<td></td>
+<td>0</td>
+<td>assertFalseWithTrueResult(com.taf.auto.steps.MultiStepAssertorTest)</td></tr>
+<tr>
+<td title='com.taf.auto.steps.MultiStepAssertorTest.assertTrueWithFalseResult()'><b>assertTrueWithFalseResult</b><br>Test class: com.taf.auto.steps.MultiStepAssertorTest</td>
+<td></td>
+<td>0</td>
+<td>assertTrueWithFalseResult(com.taf.auto.steps.MultiStepAssertorTest)</td></tr>
+<tr>
+<td title='com.taf.auto.io.JSONCompareTest.deepArraySupersetComparisonTest()'><b>deepArraySupersetComparisonTest</b><br>Test class: com.taf.auto.io.JSONCompareTest</td>
+<td></td>
+<td>0</td>
+<td>deepArraySupersetComparisonTest(com.taf.auto.io.JSONCompareTest)</td></tr>
+<tr>
+<td title='com.taf.auto.io.JSONCompareTest.deepKeySupersetComparisonTest()'><b>deepKeySupersetComparisonTest</b><br>Test class: com.taf.auto.io.JSONCompareTest</td>
+<td></td>
+<td>0</td>
+<td>deepKeySupersetComparisonTest(com.taf.auto.io.JSONCompareTest)</td></tr>
+<tr>
+<td title='com.taf.auto.ColorUtilTest.extractColor()'><b>extractColor</b><br>Test class: com.taf.auto.ColorUtilTest</td>
+<td></td>
+<td>0</td>
+<td>extractColor(com.taf.auto.ColorUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.IOUtilTest.findNextAvailableTest()'><b>findNextAvailableTest</b><br>Test class: com.taf.auto.IOUtilTest</td>
+<td></td>
+<td>0</td>
+<td>findNextAvailableTest(com.taf.auto.IOUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.metrics.MetricsToSplunkReporterTest.formatting()'><b>formatting</b><br>Test class: com.taf.auto.metrics.MetricsToSplunkReporterTest</td>
+<td></td>
+<td>0</td>
+<td>formatting(com.taf.auto.metrics.MetricsToSplunkReporterTest)</td></tr>
+<tr>
+<td title='com.taf.auto.data.DataGenUtilTest.generateLetters()'><b>generateLetters</b><br>Test class: com.taf.auto.data.DataGenUtilTest</td>
+<td></td>
+<td>0</td>
+<td>generateLetters(com.taf.auto.data.DataGenUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.ElementUtilTest.getByFromField_noField()'><b>getByFromField_noField</b><br>Test class: com.taf.auto.ElementUtilTest</td>
+<td></td>
+<td>0</td>
+<td>getByFromField_noField(com.taf.auto.ElementUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.ElementUtilTest.getByFromField_noFindBy()'><b>getByFromField_noFindBy</b><br>Test class: com.taf.auto.ElementUtilTest</td>
+<td></td>
+<td>0</td>
+<td>getByFromField_noFindBy(com.taf.auto.ElementUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.ElementUtilTest.getByFromField_withFindAll()'><b>getByFromField_withFindAll</b><br>Test class: com.taf.auto.ElementUtilTest</td>
+<td></td>
+<td>0</td>
+<td>getByFromField_withFindAll(com.taf.auto.ElementUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.ElementUtilTest.getByFromField_withFindBy()'><b>getByFromField_withFindBy</b><br>Test class: com.taf.auto.ElementUtilTest</td>
+<td></td>
+<td>0</td>
+<td>getByFromField_withFindBy(com.taf.auto.ElementUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.ElementUtilTest.getByFromField_withFindBys()'><b>getByFromField_withFindBys</b><br>Test class: com.taf.auto.ElementUtilTest</td>
+<td></td>
+<td>0</td>
+<td>getByFromField_withFindBys(com.taf.auto.ElementUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.ColorUtilTest.hexToRGBAGarbage()'><b>hexToRGBAGarbage</b><br>Test class: com.taf.auto.ColorUtilTest</td>
+<td></td>
+<td>0</td>
+<td>hexToRGBAGarbage(com.taf.auto.ColorUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.ColorUtilTest.hexToRGBASpectrum()'><b>hexToRGBASpectrum</b><br>Test class: com.taf.auto.ColorUtilTest</td>
+<td></td>
+<td>0</td>
+<td>hexToRGBASpectrum(com.taf.auto.ColorUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.io.JSONCompareTest.hierarchySupersetComparisonTest()'><b>hierarchySupersetComparisonTest</b><br>Test class: com.taf.auto.io.JSONCompareTest</td>
+<td></td>
+<td>0</td>
+<td>hierarchySupersetComparisonTest(com.taf.auto.io.JSONCompareTest)</td></tr>
+<tr>
+<td title='com.taf.auto.page.AbstractPageTest.installPatternEnforced()'><b>installPatternEnforced</b><br>Test class: com.taf.auto.page.AbstractPageTest</td>
+<td></td>
+<td>0</td>
+<td>installPatternEnforced(com.taf.auto.page.AbstractPageTest)</td></tr>
+<tr>
+<td title='com.taf.auto.data.DataValidationUtilTest.isLetter()'><b>isLetter</b><br>Test class: com.taf.auto.data.DataValidationUtilTest</td>
+<td></td>
+<td>0</td>
+<td>isLetter(com.taf.auto.data.DataValidationUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.io.JSONCompareTest.keyChangeSupersetComparisonTest()'><b>keyChangeSupersetComparisonTest</b><br>Test class: com.taf.auto.io.JSONCompareTest</td>
+<td></td>
+<td>0</td>
+<td>keyChangeSupersetComparisonTest(com.taf.auto.io.JSONCompareTest)</td></tr>
+<tr>
+<td title='com.taf.auto.page.AbstractPageTest.lackOfInstallPatternRejected()'><b>lackOfInstallPatternRejected</b><br>Test class: com.taf.auto.page.AbstractPageTest</td>
+<td></td>
+<td>0</td>
+<td>lackOfInstallPatternRejected(com.taf.auto.page.AbstractPageTest)</td></tr>
+<tr>
+<td title='com.taf.auto.accessibility.JSAccessibilityFactoryTest.locateAuditScript()'><b>locateAuditScript</b><br>Test class: com.taf.auto.accessibility.JSAccessibilityFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>locateAuditScript(com.taf.auto.accessibility.JSAccessibilityFactoryTest)</td></tr>
+<tr>
+<td title='com.taf.auto.accessibility.JSAccessibilityFactoryTest.locateJQueryScript()'><b>locateJQueryScript</b><br>Test class: com.taf.auto.accessibility.JSAccessibilityFactoryTest</td>
+<td></td>
+<td>0</td>
+<td>locateJQueryScript(com.taf.auto.accessibility.JSAccessibilityFactoryTest)</td></tr>
+<tr>
+<td title='com.taf.auto.io.JSONCompareTest.multipleNestingSupersetComparisonTest()'><b>multipleNestingSupersetComparisonTest</b><br>Test class: com.taf.auto.io.JSONCompareTest</td>
+<td></td>
+<td>0</td>
+<td>multipleNestingSupersetComparisonTest(com.taf.auto.io.JSONCompareTest)</td></tr>
+<tr>
+<td title='com.taf.auto.io.JSONCompareTest.nestedSupersetComparisonTest()'><b>nestedSupersetComparisonTest</b><br>Test class: com.taf.auto.io.JSONCompareTest</td>
+<td></td>
+<td>0</td>
+<td>nestedSupersetComparisonTest(com.taf.auto.io.JSONCompareTest)</td></tr>
+<tr>
+<td title='com.taf.auto.steps.MultiStepAssertorTest.noErrorIfNoAssertAllCalled()'><b>noErrorIfNoAssertAllCalled</b><br>Test class: com.taf.auto.steps.MultiStepAssertorTest</td>
+<td></td>
+<td>0</td>
+<td>noErrorIfNoAssertAllCalled(com.taf.auto.steps.MultiStepAssertorTest)</td></tr>
+<tr>
+<td title='com.taf.auto.io.JSONCompareTest.omissionsSupersetComparisonTest()'><b>omissionsSupersetComparisonTest</b><br>Test class: com.taf.auto.io.JSONCompareTest</td>
+<td></td>
+<td>0</td>
+<td>omissionsSupersetComparisonTest(com.taf.auto.io.JSONCompareTest)</td></tr>
+<tr>
+<td title='com.taf.auto.io.JSONCompareTest.orderingSupersetComparisonTest()'><b>orderingSupersetComparisonTest</b><br>Test class: com.taf.auto.io.JSONCompareTest</td>
+<td></td>
+<td>0</td>
+<td>orderingSupersetComparisonTest(com.taf.auto.io.JSONCompareTest)</td></tr>
+<tr>
+<td title='com.taf.auto.common.PrettyPrinterTest.prettyArray()'><b>prettyArray</b><br>Test class: com.taf.auto.common.PrettyPrinterTest</td>
+<td></td>
+<td>0</td>
+<td>prettyArray(com.taf.auto.common.PrettyPrinterTest)</td></tr>
+<tr>
+<td title='com.taf.auto.common.PrettyPrinterTest.recordColumnWidthsTest()'><b>recordColumnWidthsTest</b><br>Test class: com.taf.auto.common.PrettyPrinterTest</td>
+<td></td>
+<td>0</td>
+<td>recordColumnWidthsTest(com.taf.auto.common.PrettyPrinterTest)</td></tr>
+<tr>
+<td title='com.taf.auto.spellcheck.SpellingScannerTest.rudimentary()'><b>rudimentary</b><br>Test class: com.taf.auto.spellcheck.SpellingScannerTest</td>
+<td></td>
+<td>1</td>
+<td>rudimentary(com.taf.auto.spellcheck.SpellingScannerTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.TestDecommissionerTest.shouldDecommissionTest()'><b>shouldDecommissionTest</b><br>Test class: com.taf.auto.jira.TestDecommissionerTest</td>
+<td></td>
+<td>0</td>
+<td>shouldDecommissionTest(com.taf.auto.jira.TestDecommissionerTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.TestDecommissionerTest.shouldNotDecommissionTest()'><b>shouldNotDecommissionTest</b><br>Test class: com.taf.auto.jira.TestDecommissionerTest</td>
+<td></td>
+<td>0</td>
+<td>shouldNotDecommissionTest(com.taf.auto.jira.TestDecommissionerTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.app.ui.fetch.XrayFetchPageTest.splitKeysTest()'><b>splitKeysTest</b><br>Test class: com.taf.auto.jira.app.ui.fetch.XrayFetchPageTest</td>
+<td></td>
+<td>0</td>
+<td>splitKeysTest(com.taf.auto.jira.app.ui.fetch.XrayFetchPageTest)</td></tr>
+<tr>
+<td title='com.taf.auto.common.PrettyPrinterTest.standardizeColumnWidthsTest()'><b>standardizeColumnWidthsTest</b><br>Test class: com.taf.auto.common.PrettyPrinterTest</td>
+<td></td>
+<td>0</td>
+<td>standardizeColumnWidthsTest(com.taf.auto.common.PrettyPrinterTest)</td></tr>
+<tr>
+<td title='com.taf.auto.StringUtilTest.stripQuotedTest()'><b>stripQuotedTest</b><br>Test class: com.taf.auto.StringUtilTest</td>
+<td></td>
+<td>0</td>
+<td>stripQuotedTest(com.taf.auto.StringUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.StringUtilTest.stripTrailingIndexTest()'><b>stripTrailingIndexTest</b><br>Test class: com.taf.auto.StringUtilTest</td>
+<td></td>
+<td>0</td>
+<td>stripTrailingIndexTest(com.taf.auto.StringUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.io.JSONCompareTest.supersetComparisonTest()'><b>supersetComparisonTest</b><br>Test class: com.taf.auto.io.JSONCompareTest</td>
+<td></td>
+<td>0</td>
+<td>supersetComparisonTest(com.taf.auto.io.JSONCompareTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.xray.pojo.XrayExecutionResultTest.testDecode()'><b>testDecode</b><br>Test class: com.taf.auto.jira.xray.pojo.XrayExecutionResultTest</td>
+<td></td>
+<td>0</td>
+<td>testDecode(com.taf.auto.jira.xray.pojo.XrayExecutionResultTest)</td></tr>
+<tr>
+<td title='com.taf.auto.cucumber.pojo.CucumberTestResultTest.testDecode()'><b>testDecode</b><br>Test class: com.taf.auto.cucumber.pojo.CucumberTestResultTest</td>
+<td></td>
+<td>0</td>
+<td>testDecode(com.taf.auto.cucumber.pojo.CucumberTestResultTest)</td></tr>
+<tr>
+<td title='com.taf.auto.cucumber.pojo.CucumberTestResultTest.testDecode2()'><b>testDecode2</b><br>Test class: com.taf.auto.cucumber.pojo.CucumberTestResultTest</td>
+<td></td>
+<td>0</td>
+<td>testDecode2(com.taf.auto.cucumber.pojo.CucumberTestResultTest)</td></tr>
+<tr>
+<td title='com.taf.auto.cucumber.CucumberUtilTest.testDeriveXrayTestKeyFromURI()'><b>testDeriveXrayTestKeyFromURI</b><br>Test class: com.taf.auto.cucumber.CucumberUtilTest</td>
+<td></td>
+<td>0</td>
+<td>testDeriveXrayTestKeyFromURI(com.taf.auto.cucumber.CucumberUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.cucumber.CucumberUtilTest.testExtractMergeKey()'><b>testExtractMergeKey</b><br>Test class: com.taf.auto.cucumber.CucumberUtilTest</td>
+<td></td>
+<td>0</td>
+<td>testExtractMergeKey(com.taf.auto.cucumber.CucumberUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.cucumber.CucumberUtilTest.testMergeTestResultsToXray()'><b>testMergeTestResultsToXray</b><br>Test class: com.taf.auto.cucumber.CucumberUtilTest</td>
+<td></td>
+<td>0</td>
+<td>testMergeTestResultsToXray(com.taf.auto.cucumber.CucumberUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.xray.XrayTestStatusesTest.testNames()'><b>testNames</b><br>Test class: com.taf.auto.jira.xray.XrayTestStatusesTest</td>
+<td></td>
+<td>0</td>
+<td>testNames(com.taf.auto.jira.xray.XrayTestStatusesTest)</td></tr>
+<tr>
+<td title='com.taf.auto.io.JSONCompareTest.trivialSupersetComparisonTest()'><b>trivialSupersetComparisonTest</b><br>Test class: com.taf.auto.io.JSONCompareTest</td>
+<td></td>
+<td>0</td>
+<td>trivialSupersetComparisonTest(com.taf.auto.io.JSONCompareTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.xray.ScenarioEmitterTest.validateEmptyTest()'><b>validateEmptyTest</b><br>Test class: com.taf.auto.jira.xray.ScenarioEmitterTest</td>
+<td></td>
+<td>0</td>
+<td>validateEmptyTest(com.taf.auto.jira.xray.ScenarioEmitterTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.xray.ScenarioEmitterTest.validateMalformedTest()'><b>validateMalformedTest</b><br>Test class: com.taf.auto.jira.xray.ScenarioEmitterTest</td>
+<td></td>
+<td>0</td>
+<td>validateMalformedTest(com.taf.auto.jira.xray.ScenarioEmitterTest)</td></tr>
+<tr>
+<td title='com.taf.auto.rest.RestUtilTest.validateStatusCodeTest()'><b>validateStatusCodeTest</b><br>Test class: com.taf.auto.rest.RestUtilTest</td>
+<td></td>
+<td>0</td>
+<td>validateStatusCodeTest(com.taf.auto.rest.RestUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.xray.ScenarioEmitterTest.validateTest()'><b>validateTest</b><br>Test class: com.taf.auto.jira.xray.ScenarioEmitterTest</td>
+<td></td>
+<td>0</td>
+<td>validateTest(com.taf.auto.jira.xray.ScenarioEmitterTest)</td></tr>
+<tr>
+<td title='com.taf.auto.io.JSONCompareTest.valueChangeSupersetComparisonTest()'><b>valueChangeSupersetComparisonTest</b><br>Test class: com.taf.auto.io.JSONCompareTest</td>
+<td></td>
+<td>0</td>
+<td>valueChangeSupersetComparisonTest(com.taf.auto.io.JSONCompareTest)</td></tr>
+<tr>
+<td title='com.taf.auto.ElementUtilTest.webElementToString()'><b>webElementToString</b><br>Test class: com.taf.auto.ElementUtilTest</td>
+<td></td>
+<td>0</td>
+<td>webElementToString(com.taf.auto.ElementUtilTest)</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.taf.auto.jira.pojo.xray.TestXrayUtil.fetchIssuesByTestSetTest()'><b>fetchIssuesByTestSetTest</b><br>Test class: com.taf.auto.jira.pojo.xray.TestXrayUtil</td>
+<td></td>
+<td>0</td>
+<td>fetchIssuesByTestSetTest(com.taf.auto.jira.pojo.xray.TestXrayUtil)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.pojo.xray.XrayTestTest.test12430()'><b>test12430</b><br>Test class: com.taf.auto.jira.pojo.xray.XrayTestTest</td>
+<td></td>
+<td>0</td>
+<td>test12430(com.taf.auto.jira.pojo.xray.XrayTestTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.pojo.xray.XrayTestTest.test14845()'><b>test14845</b><br>Test class: com.taf.auto.jira.pojo.xray.XrayTestTest</td>
+<td></td>
+<td>0</td>
+<td>test14845(com.taf.auto.jira.pojo.xray.XrayTestTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.pojo.xray.XrayTestTest.test15861()'><b>test15861</b><br>Test class: com.taf.auto.jira.pojo.xray.XrayTestTest</td>
+<td></td>
+<td>0</td>
+<td>test15861(com.taf.auto.jira.pojo.xray.XrayTestTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.pojo.xray.XrayTestTest.test16101()'><b>test16101</b><br>Test class: com.taf.auto.jira.pojo.xray.XrayTestTest</td>
+<td></td>
+<td>0</td>
+<td>test16101(com.taf.auto.jira.pojo.xray.XrayTestTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.pojo.xray.XrayTestTest.test19303()'><b>test19303</b><br>Test class: com.taf.auto.jira.pojo.xray.XrayTestTest</td>
+<td></td>
+<td>0</td>
+<td>test19303(com.taf.auto.jira.pojo.xray.XrayTestTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.pojo.xray.XrayTestTest.test21188()'><b>test21188</b><br>Test class: com.taf.auto.jira.pojo.xray.XrayTestTest</td>
+<td></td>
+<td>0</td>
+<td>test21188(com.taf.auto.jira.pojo.xray.XrayTestTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.pojo.xray.XrayTestTest.test22174()'><b>test22174</b><br>Test class: com.taf.auto.jira.pojo.xray.XrayTestTest</td>
+<td></td>
+<td>0</td>
+<td>test22174(com.taf.auto.jira.pojo.xray.XrayTestTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.JIRAUtilTest.testAddLabels()'><b>testAddLabels</b><br>Test class: com.taf.auto.jira.JIRAUtilTest</td>
+<td></td>
+<td>0</td>
+<td>testAddLabels(com.taf.auto.jira.JIRAUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.JIRAUtilTest.testManageComment()'><b>testManageComment</b><br>Test class: com.taf.auto.jira.JIRAUtilTest</td>
+<td></td>
+<td>0</td>
+<td>testManageComment(com.taf.auto.jira.JIRAUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.JIRAUtilTest.testRemoveFixVersion()'><b>testRemoveFixVersion</b><br>Test class: com.taf.auto.jira.JIRAUtilTest</td>
+<td></td>
+<td>0</td>
+<td>testRemoveFixVersion(com.taf.auto.jira.JIRAUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.JIRAUtilTest.testUpdateEnv()'><b>testUpdateEnv</b><br>Test class: com.taf.auto.jira.JIRAUtilTest</td>
+<td></td>
+<td>0</td>
+<td>testUpdateEnv(com.taf.auto.jira.JIRAUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.JIRAUtilTest.testUpdateFixVersion()'><b>testUpdateFixVersion</b><br>Test class: com.taf.auto.jira.JIRAUtilTest</td>
+<td></td>
+<td>0</td>
+<td>testUpdateFixVersion(com.taf.auto.jira.JIRAUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.JIRAUtilTest.testUpdateITTeam()'><b>testUpdateITTeam</b><br>Test class: com.taf.auto.jira.JIRAUtilTest</td>
+<td></td>
+<td>0</td>
+<td>testUpdateITTeam(com.taf.auto.jira.JIRAUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.JIRAUtilTest.testUpdateIssueRemoveLabel()'><b>testUpdateIssueRemoveLabel</b><br>Test class: com.taf.auto.jira.JIRAUtilTest</td>
+<td></td>
+<td>0</td>
+<td>testUpdateIssueRemoveLabel(com.taf.auto.jira.JIRAUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.JIRAUtilTest.testUpdateRevision()'><b>testUpdateRevision</b><br>Test class: com.taf.auto.jira.JIRAUtilTest</td>
+<td></td>
+<td>0</td>
+<td>testUpdateRevision(com.taf.auto.jira.JIRAUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.JIRAUtilTest.testUpdateSprint()'><b>testUpdateSprint</b><br>Test class: com.taf.auto.jira.JIRAUtilTest</td>
+<td></td>
+<td>0</td>
+<td>testUpdateSprint(com.taf.auto.jira.JIRAUtilTest)</td></tr>
+<tr>
+<td title='com.taf.auto.jira.JIRAUtilTest.testUpdateSummary()'><b>testUpdateSummary</b><br>Test class: com.taf.auto.jira.JIRAUtilTest</td>
+<td></td>
+<td>0</td>
+<td>testUpdateSummary(com.taf.auto.jira.JIRAUtilTest)</td></tr>
+</table><p>
+</body>
+</html>

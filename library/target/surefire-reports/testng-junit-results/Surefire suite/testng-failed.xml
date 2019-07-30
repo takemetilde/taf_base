@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]" junit="true">
+  <test name="Surefire test(failed)" junit="true">
+    <classes>
+      <class name="org.junit.runner.Description">
+        <methods>
+          <include name="test15861"/>
+          <include name="test12430"/>
+          <include name="test22174"/>
+          <include name="test14845"/>
+          <include name="test16101"/>
+          <include name="test19303"/>
+          <include name="testUpdateSummary"/>
+          <include name="testUpdateRevision"/>
+          <include name="testAddLabels"/>
+          <include name="testUpdateIssueRemoveLabel"/>
+          <include name="fetchIssuesByTestSetTest"/>
+          <include name="testUpdateFixVersion"/>
+          <include name="testUpdateSprint"/>
+          <include name="test21188"/>
+          <include name="testUpdateEnv"/>
+          <include name="testManageComment"/>
+          <include name="testRemoveFixVersion"/>
+          <include name="testUpdateITTeam"/>
+        </methods>
+      </class> <!-- org.junit.runner.Description -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
