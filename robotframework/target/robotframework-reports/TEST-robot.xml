@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite failures="1" skipped="0" tests="2" name="Robot" time="1.190" errors="0">
-<testcase classname="Robot.Test" name="TC_001 Browser Start and Close" time="0.069">
-<failure message="java.lang.NoClassDefFoundError: org/openqa/selenium/remote/DesiredCapabilities" type="AssertionError"></failure>
+<testsuite failures="0" skipped="0" tests="2" name="Robot" time="1.468" errors="0">
+<testcase classname="Robot.Test" name="TC_001 Browser Start and Close" time="0.020">
 </testcase>
-<testcase classname="Robot.Testlib" name="TC_001 Browser Start and Close" time="0.013">
+<testcase classname="Robot.Testlib" name="TC_001 Browser Start and Close" time="0.044">
 </testcase>
 </testsuite>
