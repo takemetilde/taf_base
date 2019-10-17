@@ -8,7 +8,6 @@ import java.util.regex.Pattern;
 /**
  * Encapsulates a key/value pair to be passed as a parameter.
  *
- * @author AF04261 mmorton
  */
 public class RESTParam {
     private final String key;

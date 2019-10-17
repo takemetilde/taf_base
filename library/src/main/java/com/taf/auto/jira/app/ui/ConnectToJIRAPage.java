@@ -30,7 +30,6 @@ import static com.taf.auto.jfx.JFXThread.jfxSafe;
 /**
  * UI for logging in to JIRA.
  *
- * @author AF04261 mmorton
  */
 public class ConnectToJIRAPage extends UIPage {
     private static final Logger LOG = LoggerFactory.getLogger(ConnectToJIRAPage.class);

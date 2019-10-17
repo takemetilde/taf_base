@@ -19,7 +19,6 @@ import static com.taf.auto.jira.app.ui.ChooseModulePage.formatProjectAndITTeam;
 /**
  * UI to confirm when there is an existing project in settings.
  *
- * @author AF04261 mmorton
  */
 public class ConfirmProjectPage extends UIPage {
     @Override

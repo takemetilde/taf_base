@@ -16,7 +16,6 @@ import static com.taf.auto.jira.xray.ScenarioForXray.parseScenarios;
 /**
  * UI for parsing the chosen feature file.
  *
- * @author AF04261 mmorton
  */
 public class ParseFeatureFilePage extends UIPage {
     private static final Logger LOG = LoggerFactory.getLogger(ParseFeatureFilePage.class);

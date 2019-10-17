@@ -17,7 +17,6 @@ import static java.lang.String.format;
 /**
  * UI for choosing a project.
  *
- * @author AF04261 mmorton
  */
 public class ChooseProjectPage extends ChooseFromListPage<String> {
     private static final Logger LOG = LoggerFactory.getLogger(ChooseProjectPage.class);

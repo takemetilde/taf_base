@@ -7,7 +7,6 @@ import com.taf.auto.jira.pojo.SelfValueId;
 /**
  * POJO for the fields of a {@link XrayTest}.
  *
- * @author AF04261 mmorton
  */
 public class XrayTestFields extends XrayFields {
     public XrayTestFields() {

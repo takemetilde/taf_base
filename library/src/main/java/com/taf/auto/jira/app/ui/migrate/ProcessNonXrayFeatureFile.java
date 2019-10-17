@@ -8,7 +8,6 @@ import java.io.File;
 /**
  * UI for choosing a feature file that is not associated with an Xray test.
  *
- * @author AF04261 mmorton
  */
 public class ProcessNonXrayFeatureFile extends ChooseFileOrDirectoryPage implements AboutModuleSupplier{
     public ProcessNonXrayFeatureFile() {

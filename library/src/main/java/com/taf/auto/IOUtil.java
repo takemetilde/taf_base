@@ -19,7 +19,6 @@ import static java.lang.String.format;
 /**
  * Library of IO related utility methods.
  *
- * @author AF04261 mmorton
  */
 public final class IOUtil {
     private static final Logger LOG = LoggerFactory.getLogger(IOUtil.class);

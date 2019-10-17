@@ -5,7 +5,6 @@ import com.taf.auto.jira.pojo.IssueStatus;
 /**
  * Codifies the various status values for an Xray Test.
  *
- * @author AF04261 mmorton
  */
 public enum XrayTestStatuses {
     Open(1),

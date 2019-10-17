@@ -5,7 +5,6 @@ import com.taf.auto.jira.pojo.AbstractIssue;
 /**
  * Encapsulates the JIRA self link and key.
  *
- * @author AF04261 mmorton
  */
 public final class IssueHandle {
     private final String self;

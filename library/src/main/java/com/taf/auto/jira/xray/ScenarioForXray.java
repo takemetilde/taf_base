@@ -15,7 +15,6 @@ import java.util.List;
 /**
  * Encapsulates the data needed to pass to JIRA to create a test case.
  *
- * @author AF04261 mmorton
  */
 public final class ScenarioForXray {
     private static final Logger LOG = LoggerFactory.getLogger(ScenarioForXray.class);

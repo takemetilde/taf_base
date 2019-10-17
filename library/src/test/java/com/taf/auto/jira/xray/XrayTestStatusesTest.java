@@ -7,7 +7,6 @@ import static org.junit.Assert.assertEquals;
 /**
  * Unit tests for {@link XrayTestStatuses}.
  *
- * @author AF04261 mmorton
  */
 public class XrayTestStatusesTest {
     @Test

@@ -16,7 +16,6 @@ import static org.junit.Assert.assertEquals;
 /**
  * Unit tests for {@link PrettyPrinter}.
  *
- * @author AF04261 mmorton
  */
 public class PrettyPrinterTest {
     @Test

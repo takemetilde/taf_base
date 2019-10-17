@@ -5,7 +5,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 /**
  * POJO for the fields of a {@link XrayTestPlan}.
  *
- * @author AF04261 mmorton
  */
 public class XrayTestPlanFields extends XrayFields implements ContainsTests {
     @JsonProperty(value = "customfield_14726")

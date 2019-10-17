@@ -11,7 +11,6 @@ import static org.junit.Assert.assertEquals;
 /**
  * Unit tests for {@link RESTUtil}.
  *
- * @author AF04261 mmorton
  */
 public class RestUtilTest {
     private static final Logger LOG = LoggerFactory.getLogger(RestUtilTest.class);

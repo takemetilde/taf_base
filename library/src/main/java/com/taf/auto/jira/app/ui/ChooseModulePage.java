@@ -27,7 +27,6 @@ import static javafx.scene.layout.BorderPane.setAlignment;
 /**
  * Page to choose between available modules.
  *
- * @author AF04261 mmorton
  */
 public class ChooseModulePage extends UIPage {
 

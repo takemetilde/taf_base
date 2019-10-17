@@ -16,7 +16,6 @@ import static org.junit.Assert.assertEquals;
 /**
  * Unit test for {@link MetricsToSplunkReporter}.
  *
- * @author AF04261 mmorton
  */
 public class MetricsToSplunkReporterTest {
     @Test

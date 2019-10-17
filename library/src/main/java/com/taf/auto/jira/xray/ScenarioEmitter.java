@@ -31,7 +31,6 @@ import static java.lang.String.format;
 /**
  * Emits a fully formed scenario from an Xray Test Issue.
  *
- * @author AF04261 mmorton
  */
 public class ScenarioEmitter {
     private static final Logger LOG = LoggerFactory.getLogger(ScenarioEmitter.class);

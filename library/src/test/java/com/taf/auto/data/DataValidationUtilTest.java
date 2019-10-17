@@ -8,7 +8,6 @@ import static org.junit.Assert.assertTrue;
 /**
  * Unit tests for {@link DataValidationUtil}.
  *
- * @author AF04261 mmorton
  */
 public class DataValidationUtilTest {
     @Test

@@ -4,7 +4,6 @@ package com.taf.auto.jira.xray;
  * Special Exception thrown during an Xray Test when the Test Run Status should be NOT_ABLE_TO_TEST instead of the
  * normal FAIL shown when a typical exception is thrown.
  *
- * @author AF04261 mmorton
  */
 public class NotAbleToTestException extends RuntimeException {
     public NotAbleToTestException(String message) {

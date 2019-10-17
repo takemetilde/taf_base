@@ -18,7 +18,6 @@ import static java.lang.String.format;
 /**
  * Tool for working with Xray and feature files.
  *
- * @author AF04261 mmorton
  */
 public class XrayUtilityApp extends Application {
     private static final Logger LOG = LoggerFactory.getLogger(XrayUtilityApp.class);

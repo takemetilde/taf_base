@@ -28,7 +28,6 @@ import static org.junit.Assert.assertEquals;
 /**
  * Scans Xray Tests to detect which should be decommissioned.
  *
- * @author AF04261 mmorton
  */
 final class TestDecommissioner {
     private static final Logger LOG = LoggerFactory.getLogger(TestDecommissioner.class);

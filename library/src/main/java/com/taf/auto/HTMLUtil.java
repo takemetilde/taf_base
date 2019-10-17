@@ -20,7 +20,6 @@ import static com.taf.auto.WebDriverUtil.driver;
 /**
  * Utility methods related to HTML.
  *
- * @author AF04261 mmorton
  */
 public final class HTMLUtil {
     private static final Logger LOG = LoggerFactory.getLogger(HTMLUtil.class);

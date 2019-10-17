@@ -25,7 +25,6 @@ import static java.lang.String.format;
 /**
  * UI for choosing a file or directory and taking an action.
  *
- * @author AF04261 mmorton
  */
 public abstract class ChooseFileOrDirectoryPage extends UIPage {
     private static final Logger LOG = LoggerFactory.getLogger(ChooseFileOrDirectoryPage.class);

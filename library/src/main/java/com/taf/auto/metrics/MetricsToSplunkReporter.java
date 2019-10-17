@@ -26,7 +26,6 @@ import static com.taf.auto.common.PrettyPrinter.prettyCollection;
 /**
  * Pushes key metrics from a {@link Scenario} to a MySQL database.
  *
- * @author AF04261 mmorton
  */
 public class MetricsToSplunkReporter {
     private static final Logger LOG = LoggerFactory.getLogger(MetricsToSplunkReporter.class);

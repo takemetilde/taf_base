@@ -43,7 +43,6 @@ import static java.lang.String.format;
 /**
  * Utilties for working with Xray via the JIRA REST API.
  *
- * @author AF04261 mmorton
  */
 public final class XrayUtil {
     private static final Logger LOG = LoggerFactory.getLogger(XrayUtil.class);

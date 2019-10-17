@@ -43,7 +43,6 @@ import static java.lang.String.format;
 /**
  * UI for reviewing the parse results.
  *
- * @author AF04261 mmorton
  */
 public class PostParseReviewPage extends ContinueOrCancelPage {
     private static final Logger LOG = LoggerFactory.getLogger(PostParseReviewPage.class);

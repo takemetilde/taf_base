@@ -9,7 +9,6 @@ import java.util.regex.Pattern;
 /**
  * Library of color related utilities.
  *
- * @author AF04261 mmorton
  */
 public final class ColorUtil {
     private static final Logger LOG = LoggerFactory.getLogger(ColorUtil.class);

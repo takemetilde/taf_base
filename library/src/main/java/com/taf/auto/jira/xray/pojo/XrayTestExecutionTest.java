@@ -5,7 +5,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 /**
  * POJO that holds information about a all Test Runs obtained from a Test Execution.
  *
- * @author AF04261 mmorton
  */
 public class XrayTestExecutionTest {
     @JsonProperty

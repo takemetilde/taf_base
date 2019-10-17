@@ -8,7 +8,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 /**
  * POJO imitating Cucumber's JSON test format for purposes of creating a Test Execution with.
  *
- * @author AF04261 mmorton
  */
 public class CucumberTestResult extends AbstractRequest {
     @JsonProperty

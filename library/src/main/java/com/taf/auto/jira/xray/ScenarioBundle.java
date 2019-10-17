@@ -7,7 +7,6 @@ import java.nio.file.Path;
 /**
  * Composes key objects related to a scenario.
  *
- * @author AF04261 mmorton
  */
 public final class ScenarioBundle<I extends AbstractIssue> {
     public final Path file;

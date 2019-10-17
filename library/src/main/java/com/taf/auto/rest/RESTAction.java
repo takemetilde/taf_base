@@ -9,7 +9,6 @@ import java.util.function.Function;
 /**
  * Abstracts the application of a particular rest action for use by {@link RESTUtil}.
  *
- * @author AF04261 mmorton
  */
 enum RESTAction {
     GET(s -> s.get()),

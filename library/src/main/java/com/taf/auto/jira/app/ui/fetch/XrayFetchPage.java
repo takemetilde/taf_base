@@ -54,7 +54,6 @@ import static java.lang.String.format;
 /**
  * Page for fetching feature files from Xray Tests.
  *
- * @author AF04261 mmorton
  */
 public class XrayFetchPage extends ContinueOrCancelPage implements ChooseModulePage.AboutModuleSupplier {
     private static final Logger LOG = LoggerFactory.getLogger(XrayFetchPage.class);

@@ -11,7 +11,6 @@ import static com.taf.auto.WebDriverUtil.driver;
 /**
  * Convenience methods for using JavaScript.
  *
- * @author mmorton (AF04261)
  */
 public class JSUtil {
     private static final Logger LOG = LoggerFactory.getLogger(JSUtil.class);

@@ -7,7 +7,6 @@ import static com.taf.auto.IOUtil.NL;
 /**
  * Utility methods for working with {@link String}s.
  *
- * @author AF04261 mmorton
  */
 public class StringUtil {
     private StringUtil() { /** static only */ }

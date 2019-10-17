@@ -18,7 +18,6 @@ import java.util.Map;
  * the library are encapsulated within this class to avoid tight coupling. Call the {@link #check(String)} method
  * to obtain a {@link SpellingReport} that contains 0+ entries. A report with 0 entries indicates a passed check.
  *
- * @author AF04261 mmorton
  */
 public final class SpellingScanner {
     private static final Logger LOG = LoggerFactory.getLogger(SpellingScanner.class);

@@ -34,7 +34,6 @@ import static com.taf.auto.jira.app.ui.update.CollectFeatureFilesInDirectoryPage
 /**
  * Page that uploads the Scenarios to Xray.
  *
- * @author AF04261 mmorton
  */
 public class UploadFeatureFilesToXrayPage extends UIPage {
     private static final Logger LOG = LoggerFactory.getLogger(UploadFeatureFilesToXrayPage.class);

@@ -16,7 +16,6 @@ import static com.taf.auto.jira.JIRAUtil.Constants.*;
 /**
  * Encapsulates a username and password pair.
  *
- * @author AF04261 mmorton
  */
 public final class UserPass {
     private static final Logger LOG = LoggerFactory.getLogger(UserPass.class);

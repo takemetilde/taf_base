@@ -7,7 +7,6 @@ import static com.taf.auto.WebDriverUtil.driver;
 /**
  * Convenience methods for working with Alerts.
  *
- * @author AF04261 mmorton
  */
 public final class AlertUtil {
     private AlertUtil() { /** static only */

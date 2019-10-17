@@ -3,7 +3,6 @@ package com.taf.auto.data;
 /**
  * Utility methods for testing data validation.
  *
- * @author AF04261 mmorton
  */
 public final class DataValidationUtil {
     private DataValidationUtil() {

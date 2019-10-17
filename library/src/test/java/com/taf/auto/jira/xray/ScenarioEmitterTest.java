@@ -7,7 +7,6 @@ import static com.taf.auto.jira.xray.ScenarioEmitter.validate;
 /**
  * Unit tests for {@link ScenarioEmitter}.
  *
- * @author AF04261 mmorton
  */
 public class ScenarioEmitterTest {
     @Test

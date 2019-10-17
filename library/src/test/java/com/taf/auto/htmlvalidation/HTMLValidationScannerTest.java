@@ -10,7 +10,6 @@ import static org.junit.Assert.assertTrue;
 /**
  * Unit tests for {@link HTMLValidationScanner}.
  *
- * @author AF04261 mmorton
  */
 public class HTMLValidationScannerTest {
     private static final Logger LOG = LoggerFactory.getLogger(HTMLValidationScannerTest.class);

@@ -66,7 +66,6 @@ import static org.apache.commons.lang.StringUtils.isEmpty;
 /**
  * Utilities for communicating with JIRA via its REST API.
  *
- * @author AF04261 mmorton
  */
 public class JIRAUtil {
     private static final Logger LOG = LoggerFactory.getLogger(JIRAUtil.class);

@@ -26,7 +26,6 @@ import static com.taf.auto.jfx.JFXUI.style;
 /**
  * Abstract UI for a page that presents a number of choices.
  *
- * @author AF04261 mmorton
  */
 public abstract class ChooseFromListPage<C> extends ContinueOrCancelPage {
     private static final Logger LOG = LoggerFactory.getLogger(ChooseFromListPage.class);

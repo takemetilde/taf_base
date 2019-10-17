@@ -8,7 +8,6 @@ import java.io.File;
 /**
  * UI for choosing the directory to process all contained 123.feature files.
  *
- * @author AF04261 mmorton
  */
 public class UpdateAllXrayTestsInDirectoryPage extends ChooseFileOrDirectoryPage implements AboutModuleSupplier {
     public UpdateAllXrayTestsInDirectoryPage() {

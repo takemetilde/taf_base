@@ -7,7 +7,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 /**
  * POJO for the fields of a {@link XrayPreCondition}.
  *
- * @author AF04261 mmorton
  */
 public class XrayPreConditionFields extends XrayFields {
     @JsonProperty(value = "customfield_14129")

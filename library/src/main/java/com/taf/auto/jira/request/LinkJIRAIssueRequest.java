@@ -6,7 +6,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 /**
  * Request to add an additional Issue link.
  *
- * @author AF04261 mmorton
  */
 public class LinkJIRAIssueRequest extends AbstractRequest{
     @JsonProperty

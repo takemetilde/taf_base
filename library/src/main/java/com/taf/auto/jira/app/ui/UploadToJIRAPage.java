@@ -10,7 +10,6 @@ import java.util.List;
 /**
  * UI to show while uploading the {@link ScenarioForXray} objects to JIRA.
  *
- * @author AF04261 mmorton
  */
 public class UploadToJIRAPage extends UIPage {
     private final List<ScenarioForXray> scenarios;

@@ -5,7 +5,6 @@ import com.taf.auto.rest.UserPass;
 /**
  * Constants for tooling access to JIRA.
  *
- * @author AF04261 mmorton
  */
 public interface ToolCreds {
     String JIRA_USER = "srcCONFLUENCEAPI";

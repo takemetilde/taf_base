@@ -5,7 +5,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 /**
  * Request to update an existing issue with new tags.
  *
- * @author AF04261 mmorton
  */
 public class UpdateJIRAIssueLabelsRequest extends AbstractRequest {
     @JsonProperty

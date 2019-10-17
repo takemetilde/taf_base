@@ -3,7 +3,6 @@ package com.taf.auto.jira.xray;
 /**
  * Codify the test run result statuses.
  *
- * @author AF04261 mmorton
  */
 public enum XrayTestRunResultStatus {
 	

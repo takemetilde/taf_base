@@ -10,7 +10,6 @@ import static org.junit.Assert.assertNotEquals;
 /**
  * Unit tests for {@link ColorUtil}.
  *
- * @author AF04261 mmorton
  */
 public class ColorUtilTest {
     @Test

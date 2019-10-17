@@ -7,7 +7,6 @@ import java.util.List;
 /**
  * Encapsulates the results of running a spelling check with the {@link SpellingScanner}.
  *
- * @author AF04261 mmorton
  */
 public final class SpellingReport {
     private final List<String> entries;

@@ -10,7 +10,6 @@ import static org.junit.Assert.assertTrue;
 /**
  * Unit tests for {@link SpellingScanner}.
  *
- * @author AF04261 mmorton
  */
 public class SpellingScannerTest {
     @Test

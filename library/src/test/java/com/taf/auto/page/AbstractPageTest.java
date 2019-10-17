@@ -11,7 +11,6 @@ import static com.taf.auto.page.AbstractPage.install;
 /**
  * Unit tests for {@link AbstractPage}.
  *
- * @author AF04261 mmorton
  */
 public class AbstractPageTest {
 

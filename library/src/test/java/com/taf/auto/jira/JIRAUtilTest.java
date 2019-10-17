@@ -18,7 +18,6 @@ import static com.taf.auto.rest.RestUtilTest.ResponseTest.assertResponse204;
 /**
  * Unit tests for {@link JIRAUtil}.
  *
- * @author AF04261 mmorton
  */
 public class JIRAUtilTest {
     public interface TestConstants {

@@ -12,7 +12,6 @@ import static java.util.stream.Collectors.toList;
  * Abstract locator provides the framework for finding the interesting
  * elements to filter against.
  *
- * @author AF04261 mmorton
  */
 public abstract class AbstractInvisibleBy extends By implements InvisibleLocator {
     @Override

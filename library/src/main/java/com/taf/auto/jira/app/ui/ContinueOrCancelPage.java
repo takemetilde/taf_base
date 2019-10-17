@@ -11,7 +11,6 @@ import java.util.List;
 /**
  * Abstract Page that provides a consistent Cancel and Continue buttons at the bottom.
  *
- * @author AF04261 mmorton
  */
 public abstract class ContinueOrCancelPage extends ContinuePage {
     private Button buttonCancel;

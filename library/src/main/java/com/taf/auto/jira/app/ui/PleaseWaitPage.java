@@ -7,7 +7,6 @@ import javafx.scene.control.Label;
 /**
  * UI to show while waiting for an execution to complete.
  *
- * @author AF04261 mmorton
  */
 public class PleaseWaitPage extends UIPage {
     private final Runnable logic;
